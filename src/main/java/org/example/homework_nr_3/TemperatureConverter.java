@@ -26,7 +26,7 @@ public class TemperatureConverter {
     }
     public void toCelsius(double faren){
         double equalCelsius = (faren -32) / 1.8;
-        System.out.println("Convert temperature from Fahrenheit to Celsius: " + equalCelsius);
+        System.out.println("Convert temperature from Fahrenheit to Celsius:  " + equalCelsius);
     }
 }
 
