@@ -15,6 +15,6 @@ public class Circle {
 
     public void calculateArea(double radius) {
         double area = radius * radius * Math.PI;
-        System.out.println(" Area equal : " + area);
+        System.out.println("Area equal : " + area);
     }
 }
