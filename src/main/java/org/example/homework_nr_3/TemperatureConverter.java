@@ -2,9 +2,6 @@ package org.example.homework_nr_3;
 
 public class TemperatureConverter {
 
-    double celsius;
-    double faren;
-
     public static void main(String[] args) {
 
         TemperatureConverter temperatureConverter = new TemperatureConverter(23,15);
@@ -13,6 +10,9 @@ public class TemperatureConverter {
 
 
     }
+    double celsius;
+    double faren;
+
 
     public TemperatureConverter(double celsius,double faren) {
         this.celsius = celsius;
