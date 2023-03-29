@@ -32,24 +32,19 @@ public class HomeWork4 {
         double averageValue = ((double) sum) / secondArray.length;
         System.out.println("1.2. Average value in my second array is: " + averageValue);
  int ciot = 0;
+ int neciot = 0;
 for(int m = 0; m != thirdArray.length; m++){
     for( int k = 0; k != thirdArray[m].length; k++) {
         if (thirdArray[m][k] % 2 == 0) {
             ciot++;
+        } else if (thirdArray[m][k] % 2 != 0) {
+            neciot++;
         }
     }
 }
         System.out.println("2.1. The number of even numbers in array is: " + ciot);
-
-        int neciot = 0;
-        for(int m = 0; m != thirdArray.length; m++){
-            for( int k = 0; k != thirdArray[m].length; k++) {
-                if (thirdArray[m][k] % 2 != 0) {
-                    neciot++;
-                }
-            }
-        }
         System.out.println("2.2. The number of odd numbers in array is: " + neciot);
+
 
         System.out.println();
         System.out.println("Third exercise:");
